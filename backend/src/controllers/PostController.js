@@ -2,7 +2,9 @@ const Post = require('../models/Post')
 
 module.exports = {
   async index(req, res) {
-    return res.json()
+    const post = await Post.find().sort('-createdAt')
+
+    return res.json(post)
   },
   async store(req, res) {
     const { author, place, description, hashtags } = req.body

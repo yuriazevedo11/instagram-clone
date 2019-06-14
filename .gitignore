@@ -1,2 +1,14 @@
+# Backend
 backend/.env
 backend/node_modules/
+backend/uploads/resized/*
+
+!backend/uploads/resized/.gitkeep
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln

@@ -10,3 +10,22 @@ body {
   font: 14px Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased !important;
 }
+
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+
+}
+
+::-webkit-scrollbar-track {
+  background: #E9E9E9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #BBB;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #AAA;
+}

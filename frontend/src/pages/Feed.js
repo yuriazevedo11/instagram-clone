@@ -39,7 +39,6 @@ export default class Feed extends Component {
   }
 
   handleLike = id => {
-    console.log('object')
     api.post(`/posts/${id}/like`)
   }
 
